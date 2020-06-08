@@ -39,6 +39,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .form-container {
@@ -120,5 +121,8 @@ button:focus {
   }
   .container {
     height: 100%;
+  }
+  .form-container {
+    width: 90%;
   }
 }
